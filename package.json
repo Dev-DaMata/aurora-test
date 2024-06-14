@@ -9,6 +9,12 @@
   "author": "Guilherme Cordeiro da Mata",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.7.1"
+    "cypress": "^13.7.1",
+    "pg": "^8.11.4"
+  },
+  "dependencies": {
+    "cypress-postgresql": "^1.0.8",
+    "dotenv": "^16.4.5",
+    "pg-promise": "^11.5.5"
   }
 }
