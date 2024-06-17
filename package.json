@@ -9,7 +9,9 @@
   "author": "Guilherme Cordeiro da Mata",
   "license": "ISC",
   "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
     "cypress": "^13.7.1",
+    "install": "^0.13.0",
     "pg": "^8.11.4"
   },
   "dependencies": {
