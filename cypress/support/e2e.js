@@ -1,7 +1,6 @@
 import './commands';
-//import './commands/user';  colocar os commands criados na pasta acima aqui
-//import './commands/seller';
-import './commands/test'
+import './commands/auth'
+import './commands/agent'
 
 const resizeObserverLoopErrRe = /^[^(ResizeObserver loop limit exceeded)]/;
 Cypress.on('uncaught:exception', (err) => {
